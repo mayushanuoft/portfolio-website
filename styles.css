@@ -350,3 +350,50 @@ section {
 .article-icon{
     cursor: default;
 } */
+
+/* EXPERIENCE SECTION */
+#experience {
+  position: relative;
+  padding: 2rem 0;
+}
+
+.experience-details-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;             /* Space between columns */
+  align-items: flex-start;
+}
+
+#experience .details-container {
+  flex: 1;                /* Equal width for all columns */
+  background: white;
+  border-radius: 2rem;
+  border: rgb(163, 163, 163) 0.1rem solid;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.experience-sub-title {
+  color: rgb(85, 85, 85);
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+.article-container {
+  display: grid;           /* Better grid layout for articles */
+  flex-direction: column;
+  gap: 1.5rem;
+  text-align: left;
+}
+
+article {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+article .icon {
+  height: 1.5rem;
+  cursor: default;
+}
